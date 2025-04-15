@@ -11,7 +11,7 @@ Projeto | Mobile: https://www.figma.com/proto/GAc1iOPXwSIAPN0VxDPwrl/Projeto-%7C
 https://www.figma.com/proto/GAc1iOPXwSIAPN0VxDPwrl/Projeto-%7C-RetroGoal?node-id=7-3019&t=K9lA7soLL09EDXOi-1
 
 ## Site em Produção - GitHub Pages
-https://github.com/wosiak/retro-goal/
+https://github.com/wosiak/retrogoal/
 
 ## Framework CSS
 **Bootstrap**
