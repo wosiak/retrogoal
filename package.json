@@ -1,0 +1,20 @@
+{
+  "name": "retrogoal",
+  "version": "1.0.0",
+  "description": "RetroGoal é um projeto de loja virtual focado na venda de camisas retrô de futebol. A proposta é proporcionar aos fãs do esporte uma experiência nostálgica, reunindo modelos clássicos de clubes e seleções que marcaram época. O objetivo principal é desenvolver uma aplicação responsiva e visualmente atrativa, utilizando prototipação no Figma e implementação com HTML, CSS e o framework Bootstrap. O projeto foi inspirado no site retrogol.com.br, adaptando e personalizando o layout para criar uma identidade única para a marca RetroGoal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "wosiak",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "xyz": "^5.0.0"
+  },
+  "devDependencies": {
+    "abc": "^0.6.1",
+    "gh-pages": "^6.3.0"
+  }
+}
