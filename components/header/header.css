@@ -1,0 +1,33 @@
+body {
+  font-family: 'Staatliches', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+.bg-retro {
+  background-color: #610608 !important;
+}
+.logo-retro {
+  height: 130px;         /* ou 200px se preferir */
+  max-height: 200px;
+  object-fit: contain;
+}
+/* Input de busca */
+header input.form-control {
+  border-radius: 8px;
+  border: none;
+  font-family: 'Staatliches', sans-serif;
+  padding: 0.5rem 1rem;
+}
+
+/* Ícones */
+header a {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #dddddd;
+}
