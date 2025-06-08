@@ -1,0 +1,34 @@
+/* Card de login */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+/* Tipografia e cor base */
+body, label, input, button, small, p {
+  font-family: 'Staatliches', sans-serif;
+  color: #4B5363;
+}
+
+/* Títulos e botões com cor #222222 */
+h1, h3, h4, h5, h6,
+.btn, .btn-primary {
+  color: white !important;
+}
+
+a{
+  color: #610608 !important; 
+}
+
+/* Botão com fundo também escuro (opcional) */
+.btn-primary {
+  background-color: #222222 !important;
+  border-color: #222222 !important;
+}
+
+/* Botão hover opcional (mais claro ou tom diferente) */
+.btn-primary:hover {
+  background-color: #444444;
+  border-color: #444444;
+}
