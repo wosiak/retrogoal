@@ -37,20 +37,20 @@
     <div class="card login-card shadow p-4">
       <h2 class="text-center mb-4 fw-bold">Fazer Login</h2>
 
-      <form>
+      <form id="formLogin">
         <div class="mb-3">
           <label for="email" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+          <input type="email" class="form-control" id="emailLogin" placeholder="seu@email.com" required>
         </div>
 
         <div class="mb-3">
           <label for="senha" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
+          <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua senha" required>
         </div>
 
         <button type="submit" class="btn btn-primary w-100">Entrar</button>
       </form>
-
+      <div id="mensagemLogin" class="mt-3 text-danger fw-bold"></div>
       <div class="text-center mt-3">
         <small class="text-muted">
           Ainda não tem conta? <a href="../cadastro/cadastro.html">Cadastre-se aqui</a>
@@ -65,6 +65,7 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"
   ></script>
+  <script src="login.js"></script>
 </body>
 <div id="footer-placeholder"></div>
 
