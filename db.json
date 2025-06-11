@@ -1,3 +1,17 @@
 {
+  "camisas": [
+    {
+      "id": 1,
+      "nome": "Camisa Corinthians Retrô Democracia Manga Longa Masculina",
+      "preco": 239.90,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331454/democraciacorinthiana_kunnfc.webp"
+    },
+    {
+      "id": 2,
+      "nome": "Camisa Polo Retrô Corinthians 1990 Manga Longa Feminina",
+      "preco": 239.90,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331564/feminina-1_sisckw.webp"
+    }
+  ],
   "users": []
 }
