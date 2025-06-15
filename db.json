@@ -1,16 +1,32 @@
 {
   "camisas": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Camisa Corinthians Retrô Democracia Manga Longa Masculina",
-      "preco": 239.90,
-      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331454/democraciacorinthiana_kunnfc.webp"
+      "preco": 270,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331454/democraciacorinthiana_kunnfc.webp",
+      "descricao": "Descrição da Camisa 01"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Camisa Polo Retrô Corinthians 1990 Manga Longa Feminina",
-      "preco": 239.90,
-      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331564/feminina-1_sisckw.webp"
+      "preco": 239.99,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749331564/feminina-1_sisckw.webp",
+      "descricao": "Eterno 1990, timaço com Neto e cia. Desenvolvida em algodão macio e confortável, o escuro retrô silkado mantém a originalidade da peça. Uso casual, indicado para momentos de lazer e ir ao estádio."
+    },
+    {
+      "id": "3",
+      "nome": "Camisa Santos 1977 - Despedida do Rei Pelé",
+      "preco": 250,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749332030/camisa_santos_despedida_do_rei_pele_masculina_639_1_22b30fc7657ee35d9940e768023cbbd2_kphspz.webp",
+      "descricao": "Descrição da Camisa 04"
+    },
+    {
+      "id": "4",
+      "nome": "Camisa Argentina 1986 Retrô Maradona Masculino",
+      "preco": 239.99,
+      "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1750005299/maradona_itxhcj.webp",
+      "descricao": "Descrição da Camisa 03"
     }
   ],
   "users": []
