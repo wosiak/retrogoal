@@ -4,7 +4,7 @@
   "description": "RetroGoal é um projeto de loja virtual focado na venda de camisas retrô de futebol. A proposta é proporcionar aos fãs do esporte uma experiência nostálgica, reunindo modelos clássicos de clubes e seleções que marcaram época. O objetivo principal é desenvolver uma aplicação responsiva e visualmente atrativa, utilizando prototipação no Figma e implementação com HTML, CSS e o framework Bootstrap. O projeto foi inspirado no site retrogol.com.br, adaptando e personalizando o layout para criar uma identidade única para a marca RetroGoal.",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch db.json --port 3000"
+    "json:server": "npx json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "wosiak",
