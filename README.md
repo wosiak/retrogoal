@@ -34,7 +34,7 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
 - [x] ID 03 - Utiliza componentes CSS (ex. card, button) e JavaScript (ex. modal, carrossel) oferecidos por um Framework CSS.
 - [x] ID 04 - Implementa layout fluido com unidades relativas (vw, vh, %, em, rem) ao invés de unidades fixas (px).
 - [ ] ID 05 - Implementa animações (fadeIn, fadeOut, slideIn, slideOut) com CSS Animations, Animate.css ou jQuery.
-~~- [ ] ID 06 - Cria transições personalizadas com CSS Transitions ou CSS Animation.~~ // Não é necessário!
+- ~~ [ ] ID 06 - Cria transições personalizadas com CSS Transitions ou CSS Animation.~~ // Não é necessário!
 - [x] ID 07 - Aplica um Design System consistente com diretrizes de estilo, cores, tipografia e padrões de componentes.
 - [ ] ID 08 - Implementa pré-processadores CSS (ex: Sass), com variáveis, mixins e funções.
 - [ ] ID 09 - Aplica tipografia responsiva com media queries ou `clamp()`, usando unidades como rem, em ou vw.
@@ -58,9 +58,9 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
 - - [ ] ID 17 - Utiliza linters (ESLint, Stylelint) para garantir qualidade e consistência no código. // Não é necessário!
 - [x] ID 18 - Adota boas práticas de versionamento com Git e GitHub.
 - [x] ID 19 - Preenche o README.md conforme template da disciplina com o checklist incluso.
-- - [ ] ID 20 - Minifica CSS, JS e otimiza imagens para melhor desempenho. // Não é necessário!
+- ~~[ ] ID 20 - Minifica CSS, JS e otimiza imagens para melhor desempenho.~~ // Não é necessário!
 - [x] ID 21 - Organiza os arquivos do projeto de maneira lógica e modular.
-~~- [ ] ID 22 - Utiliza metodologias BEM ou SMACSS na estruturação dos estilos CSS.~~ // Não é necessário!
+- ~~ [ ] ID 22 - Utiliza metodologias BEM ou SMACSS na estruturação dos estilos CSS.~~ // Não é necessário!
 
 ---
 
@@ -68,8 +68,8 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
 
 - [ ] ID 23 - Usa jQuery para manipular DOM, eventos e interatividade.
 - [ ] ID 24 - Integra plugin jQuery (ex: jQuery Mask Plugin) para funcionalidade específica.
-~~- [ ] ID 25 - Utiliza Web Components (ex: Lit) para criar componentes reutilizáveis.~~ // Não é necessário!
-~~- [ ] ID 26 - Usa biblioteca de componentes prontos (Material Web Components, etc) ou componentes standalone.~~ // Não é necessário!
+- ~~ [ ] ID 25 - Utiliza Web Components (ex: Lit) para criar componentes reutilizáveis.~~ // Não é necessário!
+- ~~ [ ] ID 26 - Usa biblioteca de componentes prontos (Material Web Components, etc) ou componentes standalone.~~ // Não é necessário!
 
 ---
 
