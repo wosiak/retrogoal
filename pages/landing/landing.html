@@ -42,50 +42,10 @@
 
   <section class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-4 destaque">≫ Mais Vendidos</h2>
+      <h2 class="text-center mb-4 destaque">Mais Vendidos:</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id="lista-camisas">
+        <!-- Cards -->
 
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <!-- Card 1 -->
-        <div class="col">
-          <div class="card h-100">
-            <img src="https://res.cloudinary.com/dttszgzri/image/upload/v1749331454/democraciacorinthiana_kunnfc.webp" class="card-img-top" alt="Camisa">
-            <div class="card-body text-center">
-              <h5 class="card-title">Camisa Corinthians Retrô Democracia Manga Longa Masculina</h5>
-              <p class="mb-1"><strong>R$ 239,90</strong></p>
-              <button class="btn btn-retro w-100">Ver produto</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="https://res.cloudinary.com/dttszgzri/image/upload/v1749331564/feminina-1_sisckw.webp" class="card-img-top" alt="Camisa">
-            <div class="card-body text-center">
-              <h5 class="card-title">Camisa Polo Retrô Corinthians 1990 Manga Longa Feminina</h5>
-              <p class="mb-1"><strong>R$ 239,90</strong></p>
-              <a href="/pages/camisa/camisa.html"><button class="btn btn-retro w-100">Ver produto</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="https://res.cloudinary.com/dttszgzri/image/upload/v1749331922/2025-06-07_18-31_qee5pv.png" class="card-img-top" alt="Camisa">
-            <div class="card-body text-center">
-              <h5 class="card-title">Camisa Seleção Brasileira 1970 Manga Curta Masculina</h5>
-              <p class="mb-1"><strong>R$ 239,90</strong></p>
-              <button class="btn btn-retro w-100">Ver produto</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="https://res.cloudinary.com/dttszgzri/image/upload/v1749332030/camisa_santos_despedida_do_rei_pele_masculina_639_1_22b30fc7657ee35d9940e768023cbbd2_kphspz.webp" class="card-img-top" alt="Camisa">
-            <div class="card-body text-center">
-              <h5 class="card-title">Camisa Santos 1977 - Despedida do Rei Pelé</h5>
-              <p class="mb-1"><strong>R$ 239,90</strong></p>
-              <button class="btn btn-retro w-100">Ver produto</button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -95,7 +55,7 @@
       .then(res => res.text())
       .then(data => document.getElementById("footer-placeholder").innerHTML = data);
   </script>
-
+  <script src="landing.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
