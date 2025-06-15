@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 .bg-retro {
-  background-color: #610608 !important;
+  background-color: #610608;
 }
 .logo-retro {
   height: 130px;      
@@ -17,13 +17,4 @@ header input.form-control {
   border: none;
   font-family: 'Staatliches', sans-serif;
   padding: 0.5rem 1rem;
-}
-header a {
-  color: white;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #dddddd;
 }
