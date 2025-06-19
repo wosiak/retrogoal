@@ -40,12 +40,12 @@
       <form id="formLogin">
         <div class="mb-3">
           <label for="email" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="emailLogin" placeholder="seu@email.com" required>
+          <input type="email" class="form-control" id="emailLogin" placeholder="seu@email.com" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" required>
         </div>
 
         <div class="mb-3">
           <label for="senha" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua senha" required>
+          <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua senha" pattern="^(?=.*[!@#$%^&*()_+\-=\[\]{};':&quot;\\|,.<>\/?])[A-Za-z\d!@#$%^&*()_+\-=\[\]{};':&quot;\\|,.<>\/?]{8,}$" required>
         </div>
 
         <button type="submit" class="btn btn-primary w-100">Entrar</button>
