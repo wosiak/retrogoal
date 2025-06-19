@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => { // aguardando o HTML carregar completamente para rodar o script
   const form = document.getElementById("formLogin"); // pego o elemento do Formulário de Login e guardo dentro da variável 'form'
-
+  
   form.addEventListener("submit", async (e) => { // escuto o submit do form ser enviado
     e.preventDefault(); // não deixa que a página seja recarregada dps do form ser enviado
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => { // aguardando o HTML carre
       if (usuario) { // se true
         localStorage.setItem("usuario", JSON.stringify(usuario)); // guardo o usuário no localStorage + envio msg de boas vindas
         alert(`✅ Bem-vindo, ${usuario.nome}!`);
-        window.location.href = "../landing/landing.html"; // direciono pra página principal
+        window.location.href = "../landing/index.html"; // direciono pra página principal
       } else { // senão encontrar...
         document.getElementById("mensagemLogin").innerText = "❌ E-mail ou senha inválidos!"; //envio mensagem de erro
       }
