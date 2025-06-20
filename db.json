@@ -19,14 +19,14 @@
       "nome": "Camisa Santos 1977 - Despedida do Rei Pelé",
       "preco": 250,
       "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1749332030/camisa_santos_despedida_do_rei_pele_masculina_639_1_22b30fc7657ee35d9940e768023cbbd2_kphspz.webp",
-      "descricao": "Descrição da Camisa 04"
+      "descricao": "Descrição da Camisa 03"
     },
     {
       "id": "4",
       "nome": "Camisa Argentina 1986 Retrô Maradona Masculino",
       "preco": 239.99,
       "imagem": "https://res.cloudinary.com/dttszgzri/image/upload/v1750005299/maradona_itxhcj.webp",
-      "descricao": "Descrição da Camisa 03"
+      "descricao": "Descrição da Camisa 04"
     }
   ],
   "users": [],
@@ -35,6 +35,16 @@
       "id": "9ecd",
       "nome": "Eduardo Wosiak",
       "email": "eduu.wosiak@gmail.com"
+    },
+    {
+      "id": "d241",
+      "nome": "Roni",
+      "email": "roni@gmail.com"
+    },
+    {
+      "id": "8897",
+      "nome": "Eleandro",
+      "email": "eleandro@gmail.com"
     }
   ]
 }
