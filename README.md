@@ -46,7 +46,7 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
 #### RA2 - Tratamento de formulários e validações no lado cliente com HTML API e REGEX
 
 - [x] ID 12 - Implementa validação no lado cliente com mensagens de erro ou sucesso, usando a API do HTML.
-- [ ] ID 13 - Aplica REGEX para validações customizadas de campos (e-mail, telefone, data, etc).
+- [x] ID 13 - Aplica REGEX para validações customizadas de campos (e-mail, telefone, data, etc).
 - [x] ID 14 - Incorpora elementos como checkbox, radio ou select em formulários web.
 - [x] ID 15 - Lê e escreve dados no Web Storage para persistência local entre sessões.
 
@@ -89,8 +89,7 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
   - É opcional porque a dependência já vem cadastrada no arquivo `package.json` para instalação local na pasta `node_modules`
 - Executar a API Fake (JSON Server) via o seguinte comando:
   - npm run json:server
-  Ou, se preferir:
-  - npx json-server --watch db.json --port 3000
+  - Ou, se preferir rodar o comando completo: npx json-server --watch db.json --port 3000
 - O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto, ou seja, que contém o arquivo `db.json`.
   - Por padrão, a aplicação JSON Server executa no endereço `localhost:3000`    
 - Executar o projeto frontend.
