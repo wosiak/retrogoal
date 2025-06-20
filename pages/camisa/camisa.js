@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('camisa-nome').textContent = camisa.nome;
       document.getElementById('camisa-preco').textContent = `R$ ${camisa.preco}`;
       document.getElementById('descricao').textContent = `${camisa.descricao}`
+      document.title = `RetroGoal | ${camisa.nome}`;
     })
     .catch(err => console.error("Erro ao carregar o produto:", err));
 });
