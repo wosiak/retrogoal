@@ -66,8 +66,8 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
 
 #### RA4 - Aplicar bibliotecas JavaScript para interatividade
 
-- [ ] ID 23 - Usa jQuery para manipular DOM, eventos e interatividade.
-- [ ] ID 24 - Integra plugin jQuery (ex: jQuery Mask Plugin) para funcionalidade específica.
+- [x] ID 23 - Usa jQuery para manipular DOM, eventos e interatividade.
+- [x] ID 24 - Integra plugin jQuery (ex: jQuery Mask Plugin) para funcionalidade específica.
 - ~~[ ] ID 25 - Utiliza Web Components (ex: Lit) para criar componentes reutilizáveis.~~ // Não é necessário!
 - ~~[ ] ID 26 - Usa biblioteca de componentes prontos (Material Web Components, etc) ou componentes standalone.~~ // Não é necessário!
 
