@@ -15,4 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.title = `RetroGoal | ${camisa.nome}`;
     })
     .catch(err => console.error("Erro ao carregar o produto:", err));
+
+    $('#cep').mask('00.000-000');
+    
 });
