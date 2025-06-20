@@ -29,5 +29,20 @@
       "descricao": "Descrição da Camisa 03"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "id": "2834",
+      "nome": "Eduardo Wosiak",
+      "email": "eduu.wosiak@gmail.com",
+      "cpf": "11043603905",
+      "senha": "Mudar01!"
+    }
+  ],
+  "newsletter-subscribers": [
+    {
+      "id": "9ecd",
+      "nome": "Eduardo Wosiak",
+      "email": "eduu.wosiak@gmail.com"
+    }
+  ]
 }
