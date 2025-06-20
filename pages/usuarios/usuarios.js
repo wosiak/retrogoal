@@ -2,7 +2,7 @@ async function carregarUsuarios() {
   const container = document.getElementById("listaUsuarios");
 
   try {
-    const resposta = await fetch("http://localhost:3000/users");
+    const resposta = await fetch("http://localhost:3000/newsletter-subscribers");
     const usuarios = await resposta.json();
 
     if (usuarios.length === 0) {
@@ -19,7 +19,6 @@ async function carregarUsuarios() {
           <div class="card-body">
             <h5 class="card-title">${user.nome}</h5>
             <p class="card-text"><strong>Email:</strong> ${user.email}</p>
-            <p class="card-text"><strong>CPF:</strong> ${user.cpf}</p>
           </div>
         </div>
       `;
