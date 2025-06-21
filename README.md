@@ -10,8 +10,8 @@ Projeto | Mobile: https://www.figma.com/proto/GAc1iOPXwSIAPN0VxDPwrl/Projeto-%7C
 ## Design System: 
 https://www.figma.com/proto/GAc1iOPXwSIAPN0VxDPwrl/Projeto-%7C-RetroGoal?node-id=7-3019&t=K9lA7soLL09EDXOi-1
 
-## Site em Produção - GitHub Pages
-https://github.com/wosiak/retrogoal/
+## Site em Produção - Vercel
+https://retrogoal.vercel.app/pages/landing/index.html
 
 ## Framework CSS
 **Bootstrap**
