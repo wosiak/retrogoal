@@ -94,4 +94,5 @@ A aplicação deve conter as funcionalidades listadas abaixo, estruturadas confo
   - Por padrão, a aplicação JSON Server executa no endereço `localhost:3000`    
 - Executar o projeto frontend.
 
-## Telas da aplicação
+## Vídeo da aplicação
+Link: https://youtu.be/hIyAhHVAGi4
